@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    font-family: "Permanent Marker", cursive;
+}
+body{
+    background-color: rgb(163, 191, 210);
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor:pointer;
+}
+nav{
+    height: 75px;
+    background-color: rgb(25, 30, 81);
+    
+}
+nav h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+button {
+    transition-duration: 0.2s;
+    border-radius: 8px;
+  }
+  
+  button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+#gameContainer{
+    margin-top:75px;
+    
+    text-align: center;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+}
+.cell:hover{
+    background-color: rgb(240, 58, 58);
+}
